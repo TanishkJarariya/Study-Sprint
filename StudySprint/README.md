@@ -82,16 +82,3 @@
 - PayPal Developer account & credentials  
 - Gemini API access & keys
 
-### Installation (development)
-
-```bash
-# clone the repo
-git clone https://github.com/ayushmantam/StudySprint.git
-cd StudySprint
-
-# install root or server deps (if monorepo, adapt per folder)
-npm install
-
-# example: if frontend and backend in separate folders
-cd backend && npm install
-cd ../frontend && npm install
